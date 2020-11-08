@@ -13,9 +13,9 @@ func main() {
 	fmt.Println("in main" , count)
 
 
-	increment2()
+	increment2(&count)
 
-
+	fmt.Println("in main" , count)
 
 }
 
@@ -27,8 +27,9 @@ func increment(inc int){
 }
 
 
+//receive the address into a pointer var
 func increment2(inc *int){
 
-  &inc++
-   fmt.Println(inc)
+	*inc++
+   fmt.Println(*inc)
 }
