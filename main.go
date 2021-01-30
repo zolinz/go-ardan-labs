@@ -1,7 +1,7 @@
 package main
 
 import (
-	"example.com/hello/pkg/hello"
+
 	"fmt"
 )
 
@@ -11,17 +11,17 @@ var z int = 21
 
 func main() {
 	fmt.Println("Hello, playground")
-	fmt.Print(hello.Proverb())
+
 
 	fmt.Println(x)
 	x = false
 	fmt.Println(x)
 
-	s := "Hello, 世界"
+	s := "Hello, Zoli"
 	fmt.Printf("%s\n", s)
 	fmt.Printf("%q\n", s)
 	fmt.Printf("%x\n", s)
-	fmt.Printf("---%x\n", "世")
+	fmt.Printf("---%x\n", "Zoli")
 	for i :=0; i < len(s); i++ {
 		fmt.Printf("%x ", s[i])
 	}
