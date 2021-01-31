@@ -14,7 +14,8 @@ func main(){
 
 	var zoli person
 
-	fmt.Printf("%+v\n", zoli)
+	fmt.Println("here comes the value of struct person: ")
+	fmt.Printf("%#v\n", zoli)
 
 
 	zoli2 := person{
