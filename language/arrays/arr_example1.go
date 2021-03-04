@@ -10,5 +10,8 @@ func main(){
 	}
 
 
-	for 
+	for j := range myarrary{
+		println(j, myarrary[j])
+
+	}
 }

@@ -14,3 +14,6 @@ build_docker:
 
 run_docker:
 	docker run mygotest
+
+test_script:
+	./test_script.sh
